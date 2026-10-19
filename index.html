@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Musthaq Ahamed — The Series</title>
+  <meta name="description" content="Musthaq Ahamed R — Marketing Designer and Web Developer. Live products, brand websites and a Malaysia business trip earned at JPR Exports." />
+  <meta name="theme-color" content="#07070a" />
+  <meta property="og:title" content="Musthaq Ahamed — The Series" />
+  <meta property="og:description" content="Marketing Design • Web Development • Performance Marketing. Every project is an Original." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/portrait-750.webp" type="image/webp" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- Stage 1: opening titles · Stage 2: "Who's watching?" (both rendered by js/main.js) -->
+  <div id="stage"></div>
+
+  <!-- Stage 3: the site -->
+  <div id="site" hidden>
+    <header class="nav" id="nav"></header>
+    <main>
+      <section class="hero" id="top"></section>
+      <section class="continue" id="continue" aria-labelledby="continue-title"></section>
+      <div id="scenes"></div>
+      <section class="cta" id="contact"></section>
+    </main>
+  </div>
+
+  <!-- overlays -->
+  <div id="overlays"></div>
+
+  <noscript>Musthaq Ahamed R — Marketing Designer &amp; Web Developer. Please enable JavaScript to watch the series.</noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
